@@ -45,10 +45,17 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
-              </p>
+              {/* <p className="font-normal !mt-0">{item.location}</p> */}
+                <ul className="list-disc list-inside">
+                  {item.description.map((desc, index) => (
+                    <li className="mb-1"key={index}>
+                      <span className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                      {desc}
+                      </span>
+                      </li>
+                  ))}
+                </ul>
+              {/* </p> */}
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

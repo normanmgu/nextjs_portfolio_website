@@ -19,30 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      My journey into the world of technology was profoundly influenced by the towering 
+      presence of the Salesforce Tower in my hometown of Richmond. Gazing across the SF Bay, 
+      I couldn't help but marvel at its symbolic significance and the tech industry's impact on our economy,
+      especially here in the bay area. 
+      This awe-inspiring structure ignited my curiosity, prompting me to explore technology's dynamic and 
+      ever-evolving realm.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      Shaping my career, I aim to bring diverse perspectives to an industry lacking Latinx representation. The tech boom,
+       driving innovation but raising Bay Area prices, impacts non-tech workers. Recognizing technology's broader community impact 
+       fuels my commitment to inclusivity.
       </p>
     </motion.section>
   );
