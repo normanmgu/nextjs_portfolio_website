@@ -14,6 +14,7 @@ import UCDavisIcon from "@/public/ucdavislogo.png";
 import wordleImg from "@/public/wordle.png";
 import doomImage from "@/public/doom.png";
 import botImg from "@/public/bot.png";
+import dreamStatesImg from "@/public/DreamStates.png"
 
 export const links = [
   {
@@ -80,6 +81,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Dream States Demo",
+    description:
+    "A rogue-like game created in the godot engine. Here is the itch.io link: https://normanmgu.itch.io/dream-states",
+    tags: ["GDScript", "Godot"],
+    imageUrl: dreamStatesImg,
+  },
+  {
     title: "Doom Clone",
     description:
       "A limited doom clone made using Three.js to implement 3D objects. Implemented the first person FOV, \
@@ -108,6 +116,7 @@ export const projectsData = [
 
 export const skillsData = [
   "JavaScript",
+  "Godot",
   "TypeScript",
   "React",
   "React Native",
